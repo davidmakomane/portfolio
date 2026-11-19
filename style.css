@@ -210,7 +210,32 @@ html {
   padding: 0 16px;
 }
 
+.contact-layout{
+display: flex;
+gap: 55px;
+align-items: flex-start;
+}
 
+.contact-layout > .section, .contact-form{
+  flex:1;
+}
 
+.contact-note{
+  margin-top: 18px;
+  color: #626a7a;
+}
 
+.contact-note a {
+  color: #e16b45;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 14px rgba(30, 40, 60, 0.06);
+}
 
